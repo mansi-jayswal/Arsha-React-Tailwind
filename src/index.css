@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: "Jost";
+    src: url("./fonts/jost/Jost-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "jost-bold";
+    src: url("./fonts/jost/Jost-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/open-Sans/OpenSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "poppins";
+    src: url("./fonts/poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .custom-carousel .react-multi-carousel-dot button {
+    background: #c9c5c1; 
+    border: none; 
+    outline: none;
+  }
+  
+  .custom-carousel .react-multi-carousel-dot--active button {
+    background: #47b2e4; 
+    border: none; 
+    outline: none; 
+  }
+
+  h1, h2 , h3 , h4 , h5, h6{
+    font-family: 'jost-bold';
+  }
+/* 
+  .heading-underline {
+    display: block;
+    transform: translateY(50%);
+    margin-top: -0.5rem; 
+  }
+
+  .section-title {
+    position: relative;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #37517e;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+   */
+
+  
